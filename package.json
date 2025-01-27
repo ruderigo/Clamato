@@ -4,9 +4,9 @@
   "description": "CultureCamApp",
   "main": "index.js",
   "scripts": {
-  "start": "react-scripts start", // Or the equivalent for your setup
-  "build": "react-scripts build",
-  "debug": "react-scripts start --inspect" // Enable Node.js debugging
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "debug": "react-scripts start --inspect"
   },
   "repository": {
     "type": "git",
@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/ruderigo/Clamato/issues"
   },
-  "homepage": "https://github.com/ruderigo/Clamato#readme"
+  "homepage": "https://github.com/ruderigo/Clamato#readme",
+  "dependencies": {
+    "react-scripts": "^5.0.1"
+  }
 }
