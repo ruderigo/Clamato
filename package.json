@@ -1,0 +1,24 @@
+{
+  "name": "package.json",
+  "version": "1.0.0",
+  "description": "CultureCamApp",
+  "main": "index.js",
+  "scripts": {
+  "start": "react-scripts start", // Or the equivalent for your setup
+  "build": "react-scripts build",
+  "debug": "react-scripts start --inspect" // Enable Node.js debugging
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ruderigo/Clamato.git"
+  },
+  "keywords": [
+    "CultureCamApp"
+  ],
+  "author": "RAGL",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ruderigo/Clamato/issues"
+  },
+  "homepage": "https://github.com/ruderigo/Clamato#readme"
+}
