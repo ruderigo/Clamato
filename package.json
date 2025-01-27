@@ -21,13 +21,13 @@
     "url": "https://github.com/ruderigo/Clamato/issues"
   },
   "homepage": "https://github.com/ruderigo/Clamato#readme",
-"dependencies": {
-  "@zxing/library": "^0.21.3",
-  "react": "^18.2.0",
-  "react-dom": "^18.2.0",
-  "react-router-dom": "^7.1.3",
-  "react-scripts": "^5.0.1"
-}
+  "dependencies": {
+    "@zxing/library": "^0.21.3",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^7.1.3",
+    "react-scripts": "^5.0.1"
+  },
   "browserslist": {
     "production": [
       ">0.2%",
