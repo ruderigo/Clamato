@@ -1,7 +1,7 @@
 // App.js
 
 import React from "react";
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom"; // Importing React Router
+import { BrowserRouter as Router, Route, Switch, Routes } from "react-router-dom"; // Importing React Router
 import LandingPage from "./LandingPage"; // Importing landing page component
 import SurveyPage from "./SurveyPage"; // Importing survey page component
 import QRScanner from "./QRScanner"; // Importing QR scanner component
@@ -10,7 +10,7 @@ import ARExperience from "./ARExperience"; // Importing AR experience component
 const App = () => {
   return (
     <Router>
-      <Switch>
+      <Routes>
         {/* Route for the Landing Page */}
         <Route path="/" exact component={LandingPage} />
         
@@ -22,7 +22,7 @@ const App = () => {
         
         {/* Route for the AR Experience page */}
         <Route path="/ar" exact component={ARExperience} />
-      </Switch>
+      </Routes>
     </Router>
   );
 };

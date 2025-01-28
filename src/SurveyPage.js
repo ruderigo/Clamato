@@ -1,11 +1,11 @@
 // SurveyPage.js
 
 import React, { useState } from "react";
-import { useHistory } from "react-router-dom"; // React Router for navigation
+import { useNavigate } from "react-router-dom"; // React Router for navigation
 
 const SurveyPage = ({ language }) => {
   const [consent, setConsent] = useState(false); // Consent state for checkbox
-  const history = useHistory(); // React Router hook for navigation
+  const history = useNavigate(); // React Router hook for navigation
 
   // Translations for English and French versions of the survey
   const translations = {

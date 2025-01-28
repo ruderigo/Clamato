@@ -2,11 +2,11 @@
 
 import React, { useState } from "react";
 import QrReader from 'react-qr-reader'; // QR code reader component
-import { useHistory } from 'react-router-dom'; // React Router for navigation
+import { useNavigate } from 'react-router-dom'; // React Router for navigation
 
 const QRScanner = ({ language }) => {
   const [scanResult, setScanResult] = useState(null); // State to hold scan result
-  const history = useHistory(); // React Router hook for navigation
+  const history = useNavigate(); // React Router hook for navigation
 
   // Translations for QR scanner
   const translations = {

@@ -1,12 +1,12 @@
 // LandingPage.js
 
 import React, { useState } from "react";
-import { useHistory } from 'react-router-dom'; // Importing React Router for navigation
+import { useNavigate } from 'react-router-dom'; // Importing React Router for navigation
 
 const LandingPage = () => {
   // State to manage language selection
   const [language, setLanguage] = useState("en");
-  const history = useHistory(); // React Router hook for navigation
+  const history = useNavigate(); // React Router hook for navigation
 
   // Translations for both English and French
   const translations = {
