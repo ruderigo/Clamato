@@ -1,4 +1,4 @@
-import { QrReader } from '@react-qr-scanner';
+import { QrReader } from 'react-qr-scanner';
 
 const QRScanner = () => {
   const handleResult = (result, error) => {
